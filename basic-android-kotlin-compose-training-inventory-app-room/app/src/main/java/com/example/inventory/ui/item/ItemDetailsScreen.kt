@@ -77,7 +77,7 @@
             },
             floatingActionButton = {
                 FloatingActionButton(
-                    onClick = { navigateToEditItem(0) },
+                    onClick = { navigateToEditItem(uiState.itemDetails.id) },
                     shape = MaterialTheme.shapes.medium,
                     modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_large))
                 ) {
